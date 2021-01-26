@@ -1,0 +1,170 @@
+
+body{
+  background-color: #eeeeee;
+  #registration{
+    .container{
+      .row{
+        .col-4{
+          .card{
+            .card-header{
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #cards{
+    .card-footer{
+      a{
+        img{
+          width: 50px;
+          height: 35px;
+        }
+      }
+    }
+    &:hover{
+     .card{
+       transform: scale(1.05);
+       box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+     }
+    }
+  }
+  div {
+    &#main-nav {
+      background-color: #ffffff;
+      .container {
+        .navbar {
+          .navbar-brand {
+            img {
+              width: 200px;
+            }
+          }
+
+          .input-group{
+            input{
+              height: 50px;
+              width: 250px;
+              border: 2px #1e3a91 solid;
+            }
+            .input-group-append{
+              button{
+                background-color: #1e3a91;
+                border: 1px #1e3a91 solid;
+                color: white;
+              }
+            }
+          }
+
+          .nav-link{
+            img{
+              width: 40px;
+              height: 40px;
+            }
+            p{
+              font-size: 20px;
+              color: #1e3a91;
+            }
+          }
+        }
+      }
+    }
+
+    header{
+      .container-fluid{
+        background-color: #ffffff;
+
+
+        .carousel{
+
+          overflow: hidden;
+          position: relative;
+          .carousel-indicators{
+            li{
+              display: none;
+            }
+          }
+          .prev-icon{
+            width: 70px;
+            height: 70px;
+            background-color: #1e3a91;
+            border-radius: 50%;
+            position: absolute;
+            left: -30px;
+            top: 135px;
+            .carousel-control-prev-icon{
+              margin-left: 25px;
+            }
+          }
+          .next-icon{
+            width: 70px;
+            height: 70px;
+            background-color: #1e3a91;
+            border-radius: 50%;
+            position: absolute;
+            right: -30px;
+            top: 135px;
+            .carousel-control-next-icon{
+              margin-left: -20px;
+            }
+          }
+        }
+        .round{
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          background-color: #1e3a91;
+        }
+      }
+
+
+    }
+  }
+  #footer{
+    .container-fluid{
+      background-color: #1e3a91;
+      .row{
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              img{
+                width: 18px;
+                height: 18px;
+                background-color: #1e3a91;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #ColOlti{
+    .container-fluid{
+      .row{
+        .col-2{
+          a{
+            text-decoration-line: none;
+          }
+          .Oval{
+            width: 178px;
+            height: 178px;
+            border-radius: 50%;
+            overflow: hidden;
+          }
+          &:hover{
+            transform: rotateY(360deg);
+            transition-duration: 1.5s;
+            .Oval{
+              box-shadow: red;
+            }
+            h6{
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
